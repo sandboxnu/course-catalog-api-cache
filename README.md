@@ -1,13 +1,7 @@
 # The Course Catalog API Cache
 
 ## Note
-
-Since [this PR](https://github.com/sandboxnu/course-catalog-api/pull/162), the Course Catalog API now uses a different requests library.
-That means that our caches are no longer compatible with the old format.
-
-Therefore, this cache is no longer up-to-date! (as of 30-04-2023). As a result, the cache will have to be re-scraped from Banner.
-
-To scrape from Banner, use the `scrape.py` file. It's very simple and easy to use - just change the academic year in the file, run it, and use the output!
+To scrape from Banner, use the `scrape/main.ts` file found in the [course catalog API](https://github.com/sandboxnu/course-catalog-api). It's very simple and easy to use - just change the academic year in the file, run it, and use the output!
 
 
 ## Overview/FAQs
