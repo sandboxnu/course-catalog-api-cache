@@ -1,7 +1,7 @@
 # The Course Catalog API Cache
 
 ## Note
-To scrape from Banner, use the `scrapers/main.ts` file found in the [course catalog API](https://github.com/sandboxnu/course-catalog-api). It's very simple and easy to use - just change the academic year in the file, run it, and use the output!
+To scrape from Banner, use the `scrapers/main.ts` file found in the [course catalog API](https://github.com/sandboxnu/course-catalog-api). It's very simple and easy to use - with no environment variables, it scrapes the past 12 class terms by default; otherwise, you can provide a custom amount of terms to scrape with the NUMBER_OF_TERMS variable or a custom list of terms with the TERMS_TO_SCRAPE variable!
 
 
 ## Overview/FAQs
